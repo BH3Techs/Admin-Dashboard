@@ -60,7 +60,9 @@ html{
     border-radius: 20px;
 }
 .projects{
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 .anouncements{
@@ -71,4 +73,10 @@ html{
 }
 img{
     width: 180px;
+}
+.main{
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
 }
