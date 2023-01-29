@@ -26,7 +26,6 @@ html{
     display: grid;
     height: fit-content;
     grid-template-columns: 5fr 3fr;
-    
 }
 
 .header input{
@@ -43,7 +42,22 @@ html{
 }
 .nav{
     grid-column: 2 / 3;
-    
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.picturesUps{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.profs{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    ;
+}
+.picturesUps button{
+    height: fit-content;
+    border-radius: 20px;
 }
 .projects{
     grid-column: 2 / 3;
@@ -54,4 +68,7 @@ html{
 }
 .trending{
     grid-column: 2/ 3;
+}
+img{
+    width: 180px;
 }
