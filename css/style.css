@@ -23,12 +23,31 @@ html{
 }
 .header{
     grid-column: 2 / 3;
+    display: grid;
+    height: fit-content;
+    grid-template-columns: 5fr 3fr;
+    
+}
+
+.header input{
+    border-radius: 20px;
+    width: 500px;
+}
+.search{
+
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 .nav{
     grid-column: 2 / 3;
+    
 }
 .projects{
     grid-column: 2 / 3;
+
 }
 .anouncements{
     grid-column: 2 / 3;
